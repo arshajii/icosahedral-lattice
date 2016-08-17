@@ -13,20 +13,6 @@ At present relex iteration does Gauss Seidel. Can change to Gauss Jacobi or Red 
 ESW 2016-04-13: Switched to Jacobi.
 GEM 2016-08-16: Solve the 2-D Laplace Problem on an Icosahedral
 
-set dgrid3d 12,12
-set hidden3d
-set pm3d
-splot "data_0.dat" u 1:2:3 with lines
-replot "data_1.dat" u 1:2:3 with lines
-replot "data_2.dat" u 1:2:3 with lines
-replot "data_3.dat" u 1:2:3 with lines
-replot "data_4.dat" u 1:2:3 with lines
-replot "data_5.dat" u 1:2:3 with lines
-replot "data_6.dat" u 1:2:3 with lines
-replot "data_7.dat" u 1:2:3 with lines
-replot "data_8.dat" u 1:2:3 with lines
-replot "data_9.dat" u 1:2:3 with lines
-
 ======================================================================================*/
 
 #include <mpi.h>
