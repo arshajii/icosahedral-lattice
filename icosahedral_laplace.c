@@ -45,7 +45,6 @@ typedef struct
 void relax(double *phi, double *res, double *tmp,  param_t p, int cycle);
 double GetResRoot(double *phi, double *res,  param_t p);
 inline int modulo(int a, int b);
-int is_valid(int a);
 
 int main(int argc, char** argv)
 {
